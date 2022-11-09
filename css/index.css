@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+
+/*configurar toda la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*configuraciones generales*/
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #050d2e;
+}
+
+section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+/*inicio de navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 15px;
+}
+
+.logo{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: flex;
+    justify-content: left;
+    width: 200px;
+}
+
+
+
+/*header y titulos*/
+header{
+    width: 100%;
+    height: 100vw;
+    background-image: url(../imagenes/pbs_twimg_com-FVrV9siaQAA-NQM.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 650px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #ff006c;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 6vmin;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.ctn{
+    padding: 10px 15px;
+    background: #ff006c;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+
+
+/*2da parte de la pagina*/
+.guardianas{
+    margin-top: -550px;
+    margin-bottom: 40px;
+}
+
+.tittle{
+    text-align: center;
+    font-size: 4vmin;
+    color: whitesmoke;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.guardianas .row{
+    margin-top: 50px;
+}
+
+h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 4vmin;
+    color: whitesmoke;
+    text-align: center;
+}
+
+p{
+    font-size: 2vmin;
+    color: whitesmoke;
+    padding: 0px 40px;
+}
+
+.ctn2{
+    padding: 10px 15px;
+    margin: 25px auto;
+    background: #ff006c;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+
+.guardianas .ctn2{
+    margin-top: 50px;
+}
+
+.img{
+    height: 200px;
+    width: 200px;
+    padding-left: 0;
+}
+
+.img{
+    align-self: center;
+}
+
+
+
+/*3ra parte de la pagina*/
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/Star_Guardian_2022_LoL_PC_Key_Visual.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60px;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.explore-content .line{
+    margin-bottom: 25px;
+    margin-left: 175px;
+}
+
+.explore-content p{
+    padding-left: 500px;
+}
+
+.ctn3{
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background: #ff006c;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-align: center;
+    width: 100px;
+}
+
+
+
+/*4ta parte de la pagina*/
+.galeria{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content-col{
+    width: 60px;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-col h1{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.content-col .line{
+    margin-bottom: 25px;
+    margin-left: 175px;
+}
+
+.content-col p{
+    padding-left: 500px;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row2 .content-col{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.galeria .row2{
+    margin: 0;
+}
+
+.image-gallery{
+    margin-right: 80px;
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+}
+
+.img2{
+    height: 200px;
+    padding: 10px;
+}
+
+.ctn4{
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background: #ff006c;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-align: center;
+    width: 100px;
+}
+
+
+
+/*parte final*/
+.footer{
+    width: 100%;
+    height: 80px;
+    padding: 25px 80px;
+    margin: 0;
+    text-align: center;
+}
